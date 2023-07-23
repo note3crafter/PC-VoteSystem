@@ -1,0 +1,9 @@
+name: PC-VoteSystem
+main: TheNote\VoteSystem\Main
+version: 1.0.0
+api:
+  - 5.3.0
+author: TheNote/Rudolf2000/note3crafter
+description: PC-VoteSystem v.1.0.0
+softdepend:
+  - ProjectCore
