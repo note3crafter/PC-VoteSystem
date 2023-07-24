@@ -1,0 +1,19 @@
+---
+#This works Only when you activate it on ProjectCore and CoinsAPI
+Money: 4000 #set here the amount of money
+Coins: 500 #set here the amount of coins
+
+#Set up here the Prefix for messages
+Prefix: "§f[§dVotes§f] "
+
+#Set here the Command Describtion
+VoteCommand: "Stimme für den Server ab und erhalte Belohnungen."
+
+# Message to broadcast to the server when a player votes.
+VoteBC: "{player} §r§dhat für uns abgestimmt! Danke :D"
+
+# List of commands to execute when a player votes.
+# Aliases {player} {name} {x} {y} {z}
+Commands:
+  - "give {name} sponge 1"
+...
