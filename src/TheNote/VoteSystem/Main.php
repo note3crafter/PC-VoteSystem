@@ -111,6 +111,7 @@ class Main extends PluginBase
         $this->getServer()->broadcastMessage($prefix . str_replace("{player}", $player->getNameTag(), $this->getCFG("VoteBC")));
         if ($api->modules("StatsSystem") === true) {
             $api->addVotePoints($player, 1);
+            $api->addServerStats("votes", 1);
         }
         if ($api->modules("EconomySystem") === true) {
             $api->addMoney($player, $this->getCFG("Money"));
